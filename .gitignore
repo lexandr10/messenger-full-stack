@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Poetry
+# poetry.lock оставляем в репо
+
+# Node / Vite
+messenger-client/node_modules/
+messenger-client/dist/
+node_modules/
+dist/
+
+# Env
+.env
+.env.*
+fastapi-backend/.env
+messenger-client/.env
+!.env.example
+fastapi-backend/.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
