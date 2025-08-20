@@ -51,7 +51,7 @@ cp .env
 
 ## Turn on server 
 
-- poetry run uvicorn src.main:app --reload --port (frontend port)
+- poetry run uvicorn src.main:app --reload --port (backend port)
 
 # 📦 Frontend
 
@@ -62,7 +62,7 @@ cp .env
 
 ## Install dependencies:
 
-- cd frontend
+- cd messenger-client
 - yarn install
 
 ## Turn on server
